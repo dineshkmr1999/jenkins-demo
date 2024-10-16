@@ -26,8 +26,9 @@ public class BuildScript
 
         Debug.Log("Build path: " + buildPath);
 
-        // Proceed with building the player
-        BuildPipeline.BuildPlayer(EditorBuildSettings.scenes, buildPath, BuildTarget.StandaloneWindows64, BuildOptions.None);
+        // Proceed with building the player for Windows 64-bit
+        // Make sure to append the desired build folder name
+        BuildPipeline.BuildPlayer(EditorBuildSettings.scenes, buildPath + "/k12.exe", BuildTarget.StandaloneWindows64, BuildOptions.None);
 
         Debug.Log("Build completed successfully!!");
     }
