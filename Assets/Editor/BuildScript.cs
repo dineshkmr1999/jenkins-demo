@@ -38,7 +38,7 @@ public class BuildScript
         {
             case "StandaloneWindows":
                 buildTarget = BuildTarget.StandaloneWindows;
-                buildPath += "/YourGameName.exe"; // Add platform-specific directory
+                buildPath; // Add platform-specific directory
                 break;
             case "StandaloneWindows64":
                 buildTarget = BuildTarget.StandaloneWindows64;
