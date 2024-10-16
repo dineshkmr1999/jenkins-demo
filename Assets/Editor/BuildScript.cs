@@ -27,7 +27,7 @@ public class BuildScript
         Debug.Log("Build path: " + buildPath);
 
         // Proceed with building the player
-        BuildPipeline.BuildPlayer(EditorBuildSettings.scenes, buildPath, BuildTarget.StandaloneWindows, BuildOptions.None);
+        BuildPipeline.BuildPlayer(EditorBuildSettings.scenes, buildPath, BuildTarget.StandaloneWindows64, BuildOptions.None);
 
         Debug.Log("Build completed successfully!!");
     }
