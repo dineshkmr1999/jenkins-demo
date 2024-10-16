@@ -28,7 +28,7 @@ public class BuildScript
 
         // Proceed with building the player for Windows 64-bit
         // Make sure to append the desired build folder name
-        BuildPipeline.BuildPlayer(EditorBuildSettings.scenes, buildPath, BuildTarget.StandaloneOSX, BuildOptions.None);
+        BuildPipeline.BuildPlayer(EditorBuildSettings.scenes, buildPath + "/k12.apk", BuildTarget.Android, BuildOptions.None);
 
         Debug.Log("Build completed successfully!!");
     }
