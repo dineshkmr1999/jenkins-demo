@@ -29,6 +29,6 @@ public class BuildScript
         // Proceed with building the player
         BuildPipeline.BuildPlayer(EditorBuildSettings.scenes, buildPath, BuildTarget.StandaloneOSX, BuildOptions.None);
 
-        Debug.Log("Build completed successfully!!");
+        Debug.Log("Build completed successfully!!!");
     }
 }
